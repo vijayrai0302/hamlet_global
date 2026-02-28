@@ -43,13 +43,13 @@ export default function GemstonesPage() {
         title="Certified Gemstones"
         description="Buy certified natural gemstones direct from source — Colombian emeralds, Kashmir sapphires, Burmese rubies, and investment-grade diamonds. GIA, IGI & SGL certified. Dubai."
         keywords="buy certified gemstones, Colombian emerald, Kashmir sapphire, Burmese ruby, GIA certified gemstone Dubai, investment gemstones"
-        image="https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=1200&q=80"
+        image="https://images.unsplash.com/photo-1551122089-4e3e72477432?w=1200&q=80"
       />
       {/* Page Header */}
       <div
         className="relative py-24 mb-16"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=1920&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1551122089-4e3e72477432?w=1920&q=80')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

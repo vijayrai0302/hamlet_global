@@ -25,7 +25,7 @@ export const collections: Collection[] = [
     id: '2',
     name: 'Certified Gemstones',
     description: 'Rare stones sourced from the world\'s finest mines, certified by GIA, IGI & SGL authorities.',
-    image: 'https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1551122089-4e3e72477432?w=800&q=80',
     link: '/gemstones',
     itemCount: 120,
   },
@@ -58,8 +58,8 @@ export const allProducts: Product[] = [
     price: 12500,
     currency: 'USD',
     images: [
-      'https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=900&q=90',
-      'https://images.unsplash.com/photo-1594938298603-c8148c4b4288?w=900&q=90',
+      'https://images.unsplash.com/photo-1551122089-4e3e72477432?w=900&q=90',
+      'https://images.unsplash.com/photo-1586104195538-050b9f74f58e?w=900&q=90',
     ],
     description: 'A breathtaking 5.2ct Colombian emerald of exceptional clarity, exhibiting the coveted "jardin" characteristic of fine Colombian stones. Sourced directly from the Muzo Valley.',
     certification: { authority: 'GIA', number: 'GIA-5234891' },
@@ -94,7 +94,7 @@ export const allProducts: Product[] = [
     price: 22000,
     currency: 'USD',
     images: [
-      'https://images.unsplash.com/photo-1594938298603-c8148c4b4288?w=900&q=90',
+      'https://images.unsplash.com/photo-1586104195538-050b9f74f58e?w=900&q=90',
     ],
     description: 'A magnificent 2.1ct unheated Burmese ruby displaying the coveted "pigeon blood" colour — the most sought-after in the world of coloured gemstones.',
     certification: { authority: 'GIA', number: 'GIA-9821344' },
@@ -111,7 +111,7 @@ export const allProducts: Product[] = [
     price: 9800,
     currency: 'USD',
     images: [
-      'https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=900&q=90',
+      'https://images.unsplash.com/photo-1551122089-4e3e72477432?w=900&q=90',
     ],
     description: 'A stunning 4.1ct Ceylon sapphire with exceptional brilliance and a vivid royal blue colour, sourced from the gem fields of Sri Lanka.',
     certification: { authority: 'SGL', number: 'SGL-3421876' },
@@ -165,7 +165,7 @@ export const allProducts: Product[] = [
     currency: 'USD',
     images: [
       'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90',
-      'https://images.unsplash.com/photo-1569067236772-ebf4f1f4d18c?w=900&q=90',
+      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=900&q=90',
     ],
     description: 'An extraordinary platinum ring featuring a 2.5ct unheated Burmese ruby, flanked by brilliant-cut diamonds in a classic halo setting. A statement of timeless elegance.',
     certification: { authority: 'GIA', number: 'GIA-9123456' },
@@ -199,7 +199,7 @@ export const allProducts: Product[] = [
     price: 8500,
     currency: 'USD',
     images: [
-      'https://images.unsplash.com/photo-1569067236772-ebf4f1f4d18c?w=900&q=90',
+      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=900&q=90',
     ],
     description: 'An elegant eternity band featuring alternating Ceylon sapphires and brilliant-cut diamonds, channel-set in 18K white gold. Timeless sophistication.',
     certification: { authority: 'SGL', number: 'SGL-8834512' },
@@ -271,7 +271,7 @@ export const allProducts: Product[] = [
     price: null,
     currency: 'USD',
     images: [
-      'https://images.unsplash.com/photo-1573408301185-0ab5b671f3f9?w=900&q=90',
+      'https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=900&q=90',
       'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90',
     ],
     description: 'A spectacular High Jewellery parure in 18K white gold comprising a pavé diamond and Paraiba tourmaline necklace, wide-band diamond bracelet, cocktail ring, and oval pendant. Hundreds of brilliant-cut white diamonds frame each vivid Paraiba tourmaline of exceptional neon-blue saturation. One of the rarest gemstone combinations available anywhere in the world.',

@@ -92,17 +92,17 @@ VALUES
 
 -- Product Images
 INSERT INTO product_images (product_id, url, position) VALUES
-('gem-001', 'https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=900&q=90', 0),
-('gem-001', 'https://images.unsplash.com/photo-1594938298603-c8148c4b4288?w=900&q=90', 1),
+('gem-001', 'https://images.unsplash.com/photo-1551122089-4e3e72477432?w=900&q=90', 0),
+('gem-001', 'https://images.unsplash.com/photo-1586104195538-050b9f74f58e?w=900&q=90', 1),
 ('gem-002', 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90', 0),
-('gem-003', 'https://images.unsplash.com/photo-1594938298603-c8148c4b4288?w=900&q=90', 0),
-('gem-004', 'https://images.unsplash.com/photo-1573408301155-0ab5b671f3f9?w=900&q=90', 0),
+('gem-003', 'https://images.unsplash.com/photo-1586104195538-050b9f74f58e?w=900&q=90', 0),
+('gem-004', 'https://images.unsplash.com/photo-1551122089-4e3e72477432?w=900&q=90', 0),
 ('gem-005', 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900&q=90', 0),
 ('gem-006', 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=900&q=90', 0),
 ('jwl-001', 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90', 0),
-('jwl-001', 'https://images.unsplash.com/photo-1569067236772-ebf4f1f4d18c?w=900&q=90', 1),
+('jwl-001', 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=900&q=90', 1),
 ('jwl-002', 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=900&q=90', 0),
-('jwl-003', 'https://images.unsplash.com/photo-1569067236772-ebf4f1f4d18c?w=900&q=90', 0),
+('jwl-003', 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=900&q=90', 0),
 ('jwl-004', 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90', 0),
 ('pre-001', 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90', 0),
 ('pre-002', 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90', 0);
