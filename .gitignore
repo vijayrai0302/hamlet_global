@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# Node
+node_modules/
+dist/
+.next/
+out/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Media uploads
+backend/uploads/
+backend/media/
+
+# DB
+*.db
+*.sqlite
+
+# SSL certs (use env vars or secrets manager)
+*.pem
+*.key
+*.crt

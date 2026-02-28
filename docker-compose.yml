@@ -1,0 +1,63 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: hamlet_postgres
+    environment:
+      POSTGRES_USER: hamlet
+      POSTGRES_PASSWORD: hamlet_secure_2024
+      POSTGRES_DB: hamlet_gems
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01_init.sql
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hamlet -d hamlet_gems"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - hamlet_net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hamlet_backend
+    environment:
+      DATABASE_URL: postgresql+asyncpg://hamlet:hamlet_secure_2024@postgres:5432/hamlet_gems
+      SECRET_KEY: change_this_in_production_very_long_secret_key
+      CORS_ORIGINS: '["http://localhost:5173","http://localhost:3000"]'
+      WHATSAPP_NUMBER: "971555626108"
+      AWS_REGION: us-east-1
+      S3_BUCKET_NAME: hamlet-global-media
+      ENVIRONMENT: production
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - hamlet_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: hamlet_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - hamlet_net
+
+volumes:
+  postgres_data:
+
+networks:
+  hamlet_net:
+    driver: bridge
